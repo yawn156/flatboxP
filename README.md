@@ -1,4 +1,8 @@
-# Flatbox: Low profile hitbox-layout fightstick
+# FlatboxP: Low profile hitbox-layout fightstick
+
+This fork is for a functional flatbox rev5 build with RGB and OLED. 
+As of now the gerber uploaded has a board with working oled, but rgb lightning needs a revision.
+Will update when I have functional build with the features mentioned above.
 
 This repository contains 3D-printable models, PCB design files and code needed to make an arcade controller that looks like this:
 
