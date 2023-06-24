@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Kailh")(type "KiCad")(uri "${KIPRJMOD}/Kailh.pretty")(options "")(descr ""))
+  (lib (name "RP2040-Zero")(type "KiCad")(uri "${KIPRJMOD}/RP2040-Zero.pretty")(options "")(descr ""))
+)
