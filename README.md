@@ -4,6 +4,10 @@ This fork is for a functional flatbox rev5 build with RGB and OLED.
 As of now the gerber uploaded has a board with working oled, but rgb lightning needs a revision.
 Will update when I have functional build with the features mentioned above.
 
+WARNING: RGB LED circuit needs to be redone!!
+these have a backwards sk6812-mini footprint, I'll fix this when I have time (probably change them to ws2812-bs)
+OLED screen works with a ssd1306 fine.
+
 For the case I remixed Pettman's flatbox5 case
 I'll only upload the remixed top case here, go to their repo for details and the bottom plate:
 https://github.com/pett-j/Flatbox-rev5-remix
