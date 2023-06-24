@@ -3,6 +3,9 @@
 This fork is for a functional flatbox rev5 build with RGB and OLED. 
 As of now the gerber uploaded has a board with working oled, but rgb lightning needs a revision.
 Will update when I have functional build with the features mentioned above.
+For the case I remixed Pettman's flatbox5 case
+I'll only upload the remixed top case here, go to their repo for details and the bottom plate:
+https://github.com/pett-j/Flatbox-rev5-remix
 
 This repository contains 3D-printable models, PCB design files and code needed to make an arcade controller that looks like this:
 
