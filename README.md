@@ -1,4 +1,4 @@
-# FlatboxP: This fork is for a flatbox rev5 build with RGB and OLED
+# FlatboxP: Work in progress rev5 fork 
 
 WIP
 WIP
