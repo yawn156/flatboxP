@@ -1,7 +1,0 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"SW8,SW9,SW18,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17";"Kailh_socket_PG1350_reversible";11;"SW_Push";;;
-2;"H1,H4,H6,H3,H2,H7,H5";"MountingHole_6.4mm_M6";7;"MountingHole";;;
-3;"SW4,SW2,SW5,SW1,SW3";"SW_PUSH_6mm_H5mm";5;"SW_Push";;;
-4;"D5,D10,D9,D11,D6,D7,D12,D8,D3,D1,D2,D4";"LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm";12;"WS2812B";;;
-5;"A1";"RP2040-Zero";1;"RP2040-Zero";;;
-6;"OLED1";"128x64OLED";1;"SSD1306";;;
