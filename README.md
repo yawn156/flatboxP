@@ -22,7 +22,7 @@ Lastly for the buttons I recommend SGF's bridget buttons as they have a good mod
 https://github.com/sgfdevices/Bridget/tree/main/Buttons
 
 
-This repository contains a 3D-printable model, PCB design files to make an arcade controller that looks like this:
+This repository contains a 3D-printable model and PCB design files to make an arcade controller that looks like this:
 
 ![Assembled Flatbox](pictures/IMG_20230627_002206.jpg)
 
