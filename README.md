@@ -3,6 +3,8 @@
 This fork is now using WS2812B-V5 from JLC, which include capacitors inside the circuit and also operate on 3.3v logic from the RP2040.
 Switch footprint supports Kaihl choc v1 and v2.
 
+If you noticed the front panel is missing one button in comparison to the normal flatbox, it's because I used one of them as RGBDATA. Inside the GP2040-CE folder I included my configuration file which sets the layout right and enables OLED. RGBDATA line still needs to be set on the webconfigurator.
+
 
 WARNING (1)!!!
 If you see the extra thumb buttons on the pcb they're L3 AND R3 respectively for macro ease of use in SF6, however do note that I still have to work on the case (which I'll try making when I have more free time, meanwhile you're welcome to remix it yourself or try an acrylic enclosure)
