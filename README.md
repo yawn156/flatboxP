@@ -3,28 +3,41 @@
 This fork is now using WS2812B-V5 from JLC, which include capacitors inside the circuit and also operate on 3.3v logic from the RP2040.
 Switch footprint supports Kaihl choc v1 and v2.
 
-If you noticed the front panel is missing one button in comparison to the normal flatbox, it's because I used one of them as RGBDATA. Inside the GP2040-CE folder I included my configuration file which sets the layout right and enables OLED. RGBDATA line still needs to be set on the webconfigurator.
-
-
-WARNING (1)!!!
+WARNING!!!
 If you see the extra thumb buttons on the pcb they're L3 AND R3 respectively for macro ease of use in SF6, however do note that I still have to work on the case (which I'll try making when I have more free time, meanwhile you're welcome to remix it yourself or try an acrylic enclosure)
 
-WARNING (2)!!!
-As of now the board should in theory be functional which is why I uploaded the files, however I still have some other ideas before I order them myself. Use at your own caution.
+This repository contains a 3D-printable model and PCB design files to make an arcade controller that looks like this:
+
+![Assembled Flatbox](pictures/IMG_20230627_002206.jpg)
+
+MISC INFO:
+As I'm not keeping up with this project enough to have an updated build version with every release I'll note here the changes on the webconfigurator that you need to do in order for this to work, you can use the Flatbox rev5 or Flatbox rev5 RGB uf2 from the GP2040-CE repository.
+
+-Display Configuration:
+Use Display = Enabled
+SDA Pin = 0
+SCL Pin = 1
+
+-RGB LED Configuration:
+Data Pin = 29
+LED layout = Hit Box Layout
+Leds per button = 1
+
+-Pin Mapping
+S1 = 15
+S2 = 14
+L3 = 27
+R3 = 28
+A1 = 26
+A2 = -1
 
 
 For the case I remixed Pettman's flatbox5 case to have a little window to show the active area of the screen.
 I'll only upload the remixed top case here, go to their repo for details and the bottom plate:
 https://github.com/pett-j/Flatbox-rev5-remix
 
-I also recommend this model for the tact switch buttons:
+3D Printed Tact switch buttons:
 https://www.printables.com/model/470120-flatbox-tactile-switch-button
 
 Lastly for the buttons I recommend SGF's bridget buttons as they have a good model for v1s and v2s:
 https://github.com/sgfdevices/Bridget/tree/main/Buttons
-
-
-This repository contains a 3D-printable model and PCB design files to make an arcade controller that looks like this:
-
-![Assembled Flatbox](pictures/IMG_20230627_002206.jpg)
-
