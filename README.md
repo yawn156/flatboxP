@@ -3,8 +3,7 @@
 This fork is now using WS2812B-V5 from JLC, which include capacitors inside the circuit and also operate on 3.3v logic from the RP2040.
 Switch footprint supports Kaihl choc v1 and v2.
 
-WARNING!!!
-If you see the extra thumb buttons on the pcb they're L3 AND R3 respectively for macro ease of use in SF6, however do note that I still have to work on the case (which I'll try making when I have more free time, meanwhile you're welcome to remix it yourself or try an acrylic enclosure)
+Note: Cheatbuttons are two extra buttons for easy thumb access, they have been added on the pcb but the case is still WIP.
 
 This repository contains a 3D-printable model and PCB design files to make an arcade controller that looks like this:
 
