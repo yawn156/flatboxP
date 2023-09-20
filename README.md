@@ -14,21 +14,35 @@ MISC INFO:
 As I'm not keeping up with this project enough to have an updated build version with every release I'll note here the changes on the webconfigurator that you need to do in order for this to work, you can use the Flatbox rev5 or Flatbox rev5 RGB uf2 from the GP2040-CE repository.
 
 -Display Configuration:
+
 Use Display = Enabled
+
 SDA Pin = 0
+
 SCL Pin = 1
 
+
 -RGB LED Configuration:
+
 Data Pin = 29
+
 LED layout = Hit Box Layout
+
 Leds per button = 1
 
+
 -Pin Mapping
+
 S1 = 15
+
 S2 = 14
+
 L3 = 27
+
 R3 = 28
+
 A1 = 26
+
 A2 = -1
 
 
