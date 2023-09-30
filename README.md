@@ -4,7 +4,7 @@ This fork is now using WS2812B-V5 from JLC, which include capacitors inside the 
 Switch footprint supports Kaihl choc v1 and v2.
 
 For the case I remixed Pettman's flatbox5 case to have a little window to show the active area of the screen.
-I'll only upload the remixed top case here, go to their repo for details and the bottom plate:
+I'll only upload the remixed top case here, go to their repo for details and the bottom plate (I remixed the model that allows for threaded inserts so make sure to grab some M2x4 brass inserts.):
 https://github.com/pett-j/Flatbox-rev5-remix
 
 If you want to use Choc V1 switches I recommend getting chocfox keycaps and using this button model:
